@@ -8,11 +8,14 @@ const Home = () => {
       backgroundImage: `url(${mainBanner})`,
       backgroundSize: 'cover',
       backgroundRepeat: 'no-repeat',
-      backgroundAttachment: 'fixed',
-      height: '800px',
+      height: '700px',
       width: '100%',
     }}>
-         
+          <div className="anim-circle1"></div>
+          <div className="anim-circle2"></div>
+         <div className="slide_text">
+              <span className="tag">Caring for life</span>
+         </div>
     </div>
   )
 }

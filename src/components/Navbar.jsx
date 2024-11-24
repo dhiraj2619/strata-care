@@ -1,13 +1,14 @@
 import React from 'react'
+import StrataLogo from '../assets/images/mainlogo.png'
 
 const Navbar = () => {
   return (
-    <header className="navbar navbar-expand-lg navbar-dark bg-transparent sticky-top">
+    <header className="navbar navbar-expand-lg navbar-dark bg-transparent sticky-top py-3">
       <div className="container-fluid">
         <div className="d-flex w-100 justify-content-between align-items-center">
           <div className="logo">
             <a href="" className="navbar-brand">
-              Logo
+                <img src={StrataLogo} className="img-fluid headerlogo" alt="" />
             </a>
           </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,9 +33,10 @@ const Navbar = () => {
               </li>
               <li>
                 <a href="" className="nav-link">
-                  <i className="bi bi-search"></i>
+                  <i className="bi bi-search headersearch"></i>
                 </a>
               </li>
+              <button className="btn aptbtn">Appointment</button>
             </ul>
 
           </div>

@@ -1,43 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Yeseva+One&display=swap');
 
-:root{
-   --primary-color:#159EEC;
-   --semiprimary-color:#BFD2F8;
-   --semidark-color:#1F2B6C;
-   --links-color:#00089F;
-   --dark-color:#000357;
-   --main-color:#FFCACA;
-   --light-color:#ffffff;
+:root {
+  --primary-color: #159EEC;
+  --semiprimary-color: #BFD2F8;
+  --semidark-color: #1F2B6C;
+  --links-color: #00089F;
+  --dark-color: #000357;
+  --main-color: #FFCACA;
+  --light-color: #ffffff;
 }
 
-.yesava-one-normal{
+.yesava-one-normal {
   font-family: "Yeseva One", serif;
   font-weight: 400;
 }
-.yesava-one-bold{
+
+.yesava-one-bold {
   font-family: "Yeseva One", serif;
   font-weight: 600;
 }
 
 
-body{
-   background: var(--light-color);
+body {
+  background: var(--light-color);
   font-family: "Work Sans", sans-serif;
-  height: 2000px;
-}
-.container-fluid{
-   max-width: 1400px !important;
+  overflow-x: hidden;
 }
 
-.main-links{
-   color: var(--links-color);
-   font-size: 18px;
-}
-.navbarmenu li{
-   margin: 0 10px;
+.container-fluid {
+  max-width: 1400px !important;
 }
 
+.main-links {
+  color: var(--links-color);
+  font-size: 18px;
+}
 
+.navbarmenu li {
+  margin: 0 17px;
+}
+
+.headerlogo{
+  height: 110px;
+  width: 97px;
+}
+.headersearch{
+  color: var(--links-color);
+  font-size: 20px;
+}
+.btn.aptbtn{
+  background-color: #00035791;
+  border: 1px solid #000357;
+  border-radius: 50px;
+  height: 45px;
+  width: 173px;
+  padding: 13px 35px;
+  line-height: 18.77px;
+  font-size: 16px;
+  color: var(--light-color);
+  margin-left: 30px;
+}
 
 @media (min-width: 1550px) and (max-width: 1700px) {
   .container-fluid {
