@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Yeseva+One&display=swap');
+
+:root{
+   --primary-color:#159EEC;
+   --semiprimary-color:#BFD2F8;
+   --semidark-color:#1F2B6C;
+   --links-color:#00089F;
+   --dark-color:#000357;
+   --main-color:#FFCACA;
+   --light-color:#ffffff;
+}
+
+.yesava-one-normal{
+  font-family: "Yeseva One", serif;
+  font-weight: 400;
+}
+.yesava-one-bold{
+  font-family: "Yeseva One", serif;
+  font-weight: 600;
+}
+
+
+body{
+   background: var(--light-color);
+  font-family: "Work Sans", sans-serif;
+}
+.container-fluid{
+   max-width: 1400px !important;
+}
+
+.main-links{
+   color: var(--links-color);
+   font-size: 18px;
+}
+.navbarmenu li{
+   margin: 0 10px;
+}
+
+
+
+@media (min-width: 1550px) and (max-width: 1700px) {
+  .container-fluid {
+    max-width: 1500px !important;
+  }
+}
