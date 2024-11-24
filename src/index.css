@@ -23,6 +23,7 @@
 body{
    background: var(--light-color);
   font-family: "Work Sans", sans-serif;
+  height: 2000px;
 }
 .container-fluid{
    max-width: 1400px !important;

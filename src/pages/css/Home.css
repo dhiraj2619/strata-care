@@ -1,0 +1,8 @@
+.main_banner{
+    margin-top: -70px;
+}
+.main_banner::before{
+    position: absolute;
+    content: "";
+    background: linear-gradient();
+}
